@@ -4,6 +4,7 @@ import Charity from "../../components/Charity/Charity";
 
 const Home = () => {
   const cards = useLoaderData();
+  // console.log(cards);
 
   return (
     <div className="py-2">

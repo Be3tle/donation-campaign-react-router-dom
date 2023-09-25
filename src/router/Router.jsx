@@ -7,6 +7,7 @@ import Stats from "../pages/Stats/Stats";
 import Details from "../pages/Details/Details";
 
 const myCreatedRoute = createBrowserRouter([
+  // console.log(myCreatedRoute)
   {
     path: "/",
     element: <MainLayout></MainLayout>,

@@ -13,7 +13,7 @@ const DonationCard = ({ card }) => {
         <h2 className="card-title">{title}</h2>
         <p>$290</p>
         <div className="card-actions">
-          <button className="px-4 py-1 bg-blue-500 text-white rounded">
+          <button className="px-4 py-1 bg-blue-500 text-white  rounded">
             View Details
           </button>
         </div>

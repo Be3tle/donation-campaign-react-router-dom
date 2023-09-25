@@ -26,7 +26,7 @@ const DetailsCard = ({ card, onDonation }) => {
 
   return (
     <>
-      <div key={id} className="relative flex justify-center items-center">
+      <div key={id} className="relative flex justify-center items-center ">
         <div className="relative">
           <img src={image} className="w-[1080px]" alt="Your Image" />
           <div className="absolute inset-x-0 bottom-0 h-20 bg-black opacity-70"></div>

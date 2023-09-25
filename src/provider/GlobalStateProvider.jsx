@@ -4,7 +4,7 @@ import { createContext } from "react";
 export const GlobalContext = createContext(null);
 
 const GlobalStateProvider = ({ children }) => {
-  const userName = "Harry Potter";
+  const userName = "Hory Podo";
 
   return (
     <div>

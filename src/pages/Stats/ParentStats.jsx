@@ -11,7 +11,7 @@ const ParentStats = () => {
   };
 
   return (
-    <div>
+    <div className="">
       <DetailsCard onDonation={handleDonation} />
       <Stats donatedAmount={donatedAmount} />
     </div>

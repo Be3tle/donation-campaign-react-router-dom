@@ -31,7 +31,7 @@ const MainLayout = () => {
     <div className="max-w-[1600px] mx-auto">
       <Navbar></Navbar>
       {isLoadingState ? (
-        <div>Spinning</div>
+        <div>Spinner</div>
       ) : (
         <div className="my-10">
           <Outlet context={"This is an outlet context"}></Outlet>

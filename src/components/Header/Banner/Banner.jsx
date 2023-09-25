@@ -21,7 +21,7 @@ const Banner = ({ setCards, cards }) => {
         alt=""
       />
 
-      <div className="searchbar absolute bottom-[43%] w-full px-96">
+      <div className="searchBar absolute bottom-[43%] w-full px-96">
         <h1 className="text-black text-3xl font-semibold relative pb-8 mx-auto">
           I Grow By Helping People In Need
         </h1>

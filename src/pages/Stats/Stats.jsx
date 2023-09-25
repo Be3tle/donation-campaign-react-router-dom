@@ -1,7 +1,7 @@
 import { Pie, PieChart, Legend, Cell } from "recharts";
 
 const data = [
-  { name: "Your Donation", value: 5 },
+  { name: "Your Donation", value: 4 },
   { name: "Total Donation", value: 12 },
 ];
 

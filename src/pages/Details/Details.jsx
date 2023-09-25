@@ -21,6 +21,8 @@ const Details = () => {
     }
   }, [id, cards]);
 
+  // console.log(card);
+
   return (
     <div>
       <DetailsCard card={card}></DetailsCard>

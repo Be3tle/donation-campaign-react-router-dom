@@ -38,7 +38,7 @@ const Donation = () => {
           </div>
 
           {donations.length > 4 && (
-            <div className="flex justify-center items-center py-9">
+            <div className="flex justify-center  items-center py-9">
               <button
                 onClick={() => setIsShown(!isShown)}
                 className={`px-4 py-1 bg-green-500 text-white rounded ${

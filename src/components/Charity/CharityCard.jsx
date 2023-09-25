@@ -14,7 +14,7 @@ const CharityCard = ({ card }) => {
           </div>
           <div className="p-2">
             <h4 className="">{category}</h4>
-            <h5 className="text-lg font-semibold ">{title}</h5>
+            <h5 className="text-lg font-semibold">{title}</h5>
           </div>
         </div>
       </div>
