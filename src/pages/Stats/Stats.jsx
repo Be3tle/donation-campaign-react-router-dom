@@ -12,7 +12,7 @@ const pieChartHeight = 400;
 
 const Stats = () => {
   return (
-    <div className="flex flex-col gap-2 justify-center items-center">
+    <div className="flex flex-col gap-2 justify-center  items-center">
       <PieChart width={pieChartWidth} height={pieChartHeight}>
         <Pie
           data={data}
