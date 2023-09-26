@@ -10,7 +10,7 @@ const DonationCard = ({ card }) => {
       </figure>
       <div className="p-3">
         <p>{category}</p>
-        <h2 className="card-title">{title}</h2>
+        <h2 className="card-title ">{title}</h2>
         <p>$290</p>
         <div className="card-actions">
           <button className="px-4 py-1 bg-blue-500 text-white  rounded">
