@@ -1,9 +1,5 @@
+import { useEffect, useState } from "react";
 import { Pie, PieChart, Legend, Cell } from "recharts";
-
-const data = [
-  { name: "Your Donation", value: 4 },
-  { name: "Total Donation", value: 12 },
-];
 
 const COLORS = ["#0088FE", "#FFBB28"];
 
@@ -11,6 +7,28 @@ const pieChartWidth = 400;
 const pieChartHeight = 400;
 
 const Stats = () => {
+  const [stat, setStat] = useState([]);
+
+  useEffect(() => {
+    const donatedItem = JSON.parse(localStorage.getItem("donations"));
+    if (donatedItem) {
+      setStat(donatedItem);
+    }
+  }, []);
+
+  const yourDonationCount = stat.length;
+  const totalDonationCount = 12;
+  const yourDonationPercentage = (
+    (yourDonationCount / totalDonationCount) *
+    100
+  ).toFixed(1);
+  const totalDonationPercentage = (100 - yourDonationPercentage).toFixed(1);
+
+  const data = [
+    { name: "Your Donation", value: parseFloat(yourDonationPercentage) },
+    { name: "Total Donation", value: parseFloat(totalDonationPercentage) },
+  ];
+
   return (
     <div className="flex flex-col gap-2 justify-center  items-center">
       <PieChart width={pieChartWidth} height={pieChartHeight}>

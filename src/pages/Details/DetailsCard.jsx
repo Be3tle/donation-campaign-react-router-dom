@@ -4,7 +4,7 @@
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const DetailsCard = ({ card, onDonation }) => {
+const DetailsCard = ({ card }) => {
   const { id, title, image, textClr } = card || {};
 
   const handleAddToDonation = () => {
@@ -33,8 +33,6 @@ const DetailsCard = ({ card, onDonation }) => {
           <button
             onClick={() => {
               handleAddToDonation();
-              const donationAmount = 1;
-              onDonation(donationAmount);
             }}
             style={{ backgroundColor: textClr }}
             className="absolute left-6 bottom-6 text-white font-bold py-2 px-4 rounded"
