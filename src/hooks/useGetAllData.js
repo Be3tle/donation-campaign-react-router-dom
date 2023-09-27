@@ -11,7 +11,7 @@ const useGetAllData = () => {
         setData(data);
         setIsLoading(false);
       })
-      .catch((error) => {
+      .catch((e) => {
         setIsLoading(false);
       });
   }, []);

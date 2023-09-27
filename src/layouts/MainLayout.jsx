@@ -7,25 +7,19 @@ const MainLayout = () => {
 
   const isLoadingState = navigation.state == "loading";
 
-  console.log(isLoadingState);
-
   const loc = useLocation();
 
   useEffect(() => {
-    console.log("useEffect loc", loc);
-
     if (loc.pathname == "/") {
       document.title = `Donation Campaign`;
     } else {
-      document.title = `Donation${loc.pathname.replace("/", "-")}`;
+      document.title = `${loc.pathname.replace("/", "")}`;
     }
 
     if (loc.state) {
       document.title = loc.state;
     }
   }, [loc.pathname, loc]);
-
-  console.log(loc);
 
   return (
     <div className="max-w-[1600px] mx-auto">
@@ -34,7 +28,7 @@ const MainLayout = () => {
         <div>Spinner</div>
       ) : (
         <div className="my-10">
-          <Outlet context={"This is an outlet context"}></Outlet>
+          <Outlet></Outlet>
         </div>
       )}
     </div>

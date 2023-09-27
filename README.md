@@ -6,7 +6,7 @@
 
    Benefit: This feature allows users to explore and learn more about individual donations, fostering engagement and transparency in the donation process.
 
-2. <h2>Donation Page with Pagination</h2>
+2. <h2>Donation Page</h2>
 
    Feature Description: Implement a donation page where users can view a list of their donations. Donation cards are organized into rows, with each card containing a picture, category, title, price, and a "View Details" button. When there are more than four donations, a "See All" button appears, allowing users to view additional donations with a seamless transition. The donation page provides an overview of the user's charitable contributions.
 

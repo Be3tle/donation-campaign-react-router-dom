@@ -3,73 +3,109 @@
     "id": "1",
     "image": "https://i.postimg.cc/NFS4pBmn/Clothing.png",
     "title": "Used Clothing Drive",
-    "category": "Clothing"
+    "category": "Clothing",
+    "textClr": "#79C23F",
+    "textBg": "#c9f7a3",
+    "cardBg": "#d7f5bf"
   },
   {
     "id": "2",
     "image": "https://i.postimg.cc/sfNwV9qJ/Education.png",
     "title": "Good education",
-    "category": "Education"
+    "category": "Education",
+    "textClr": "#FF444A",
+    "textBg": "#faa7ab",
+    "cardBg": "#e6b3b5"
   },
   {
     "id": "3",
     "image": "https://i.postimg.cc/9Mx1wGMC/Health.png",
     "title": "Clean water",
-    "category": "Health"
+    "category": "Health",
+    "textClr": "#0052FF",
+    "textBg": "#749ef7",
+    "cardBg": "#a9c4fc"
   },
   {
     "id": "4",
     "image": "https://i.postimg.cc/yxkjmkg9/Food.png",
     "title": "Better Food For All",
-    "category": "Food"
+    "category": "Food",
+    "textClr": "#F87147",
+    "textBg": "#f5b39f",
+    "cardBg": "#f7cec1"
   },
   {
     "id": "5",
     "image": "https://i.postimg.cc/sfNwV9qJ/Education.png",
     "title": "Good education",
-    "category": "Education"
+    "category": "Education",
+    "textClr": "#FF444A",
+    "textBg": "#faa7ab",
+    "cardBg": "#e6b3b5"
   },
   {
     "id": "6",
     "image": "https://i.postimg.cc/yxkjmkg9/Food.png",
     "title": "Better Food For All",
-    "category": "Food"
+    "category": "Food",
+    "textClr": "#F87147",
+    "textBg": "#f5b39f",
+    "cardBg": "#f7cec1"
   },
   {
     "id": "7",
     "image": "https://i.postimg.cc/NFS4pBmn/Clothing.png",
     "title": "Used Clothing Drive",
-    "category": "Clothing"
+    "category": "Clothing",
+    "textClr": "#79C23F",
+    "textBg": "#c9f7a3",
+    "cardBg": "#d7f5bf"
   },
   {
     "id": "8",
     "image": "https://i.postimg.cc/9Mx1wGMC/Health.png",
     "title": "Clean water",
-    "category": "Health"
+    "category": "Health",
+    "textClr": "#0052FF",
+    "textBg": "#749ef7",
+    "cardBg": "#a9c4fc"
   },
 
   {
     "id": "9",
     "image": "https://i.postimg.cc/9Mx1wGMC/Health.png",
     "title": "Clean water",
-    "category": "Health"
+    "category": "Health",
+    "textClr": "#0052FF",
+    "textBg": "#749ef7",
+    "cardBg": "#a9c4fc"
   },
   {
     "id": "10",
     "image": "https://i.postimg.cc/NFS4pBmn/Clothing.png",
     "title": "Used Clothing Drive",
-    "category": "Clothing"
+    "category": "Clothing",
+    "textClr": "#79C23F",
+    "textBg": "#c9f7a3",
+    "cardBg": "#d7f5bf"
   },
   {
     "id": "11",
     "image": "https://i.postimg.cc/sfNwV9qJ/Education.png",
     "title": "Good education",
-    "category": "Education"
+    "category": "Education",
+    "textClr": "#FF444A",
+    "textBg": "#faa7ab",
+    "cardBg": "#e6b3b5"
   },
   {
     "id": "12",
     "image": "https://i.postimg.cc/yxkjmkg9/Food.png",
     "title": "Better Food For All",
-    "category": "Food"
+    "category": "Food",
+    "textClr": "#F87147",
+    "textBg": "#f5b39f",
+    "cardBg": "#f7cec1"
   }
 ]
