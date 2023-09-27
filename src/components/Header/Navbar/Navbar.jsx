@@ -3,10 +3,12 @@ import Logo from "./Logo";
 
 const Navbar = () => {
   return (
-    <div className="">
-      <nav className="flex justify-between py-5 px-20">
+    <div className="navbar bg-base-100 pt-5">
+      <div className="flex-1">
         <Logo></Logo>
-        <ul className="flex gap-5">
+      </div>
+      <div className="flex-none">
+        <ul className="lg:menu-horizontal px-1 gap-2 lg:gap-5 text-sm font-normal lg:text-base">
           <li>
             <NavLink
               to="/"
@@ -51,7 +53,7 @@ const Navbar = () => {
             </NavLink>
           </li>
         </ul>
-      </nav>
+      </div>
     </div>
   );
 };

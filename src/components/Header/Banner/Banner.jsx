@@ -16,13 +16,13 @@ const Banner = ({ setCards, cards }) => {
   return (
     <div className="h-[70vh] relative bg-slate-100">
       <img
-        className="h-full w-full object-cover opacity-20"
+        className="h-full w-full object-cover opacity-10"
         src="https://workplace.schwab.com/sites/g/files/eyrktu871/files/volunteers-3.960x537.jpg"
         alt=""
       />
 
       <div className="searchBar absolute bottom-[43%] w-full px-96">
-        <h1 className="text-black text-3xl font-semibold relative pb-8 mx-auto">
+        <h1 className="text-black text-3xl font-semibold hidden md:hidden lg:flex text-center pb-8 mx-auto w-[1200px]">
           I Grow By Helping People In Need
         </h1>
         <form onSubmit={handleSearch}>
